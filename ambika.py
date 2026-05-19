@@ -22,7 +22,7 @@ from telegram.request import HTTPXRequest
 # SETTINGS
 # =========================================
 
-TOKEN = "YOUR_BOT_TOKEN"
+TOKEN = "8879555764:AAF3SSlxHyoG6wWrKre9SGp0jovSWzsgsmc"
 
 API_URL = "https://draw.ar-lottery01.com/WinGo/WinGo_1M/GetHistoryIssuePage.json"
 
