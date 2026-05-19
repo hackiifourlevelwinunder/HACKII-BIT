@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ADMIN CONTROL</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="matrix"></div>
+
+<div class="panel">
+
+<h1>ADMIN CONTROL PANEL</h1>
+
+<div class="cyber-grid">
+<div class="box">
+<h2 id="totalUID">0</h2>
+<p>APPROVED UID</p>
+</div>
+
+<div class="box">
+<h2>18</h2>
+<p>ONLINE USERS</p>
+</div>
+
+<div class="box">
+<h2>ACTIVE</h2>
+<p>SERVER STATUS</p>
+</div>
+
+<div class="box">
+<h2>SECURE</h2>
+<p>FIREWALL</p>
+</div>
+</div>
+
+<input type="text" id="newUID" placeholder="ADD OR REMOVE UID">
+
+<button onclick="addUID()">APPROVE UID</button>
+
+<button class="danger" onclick="removeUID()">REMOVE UID</button>
+
+<button onclick="clearAll()">CLEAR ALL UID</button>
+
+<div class="list-box">
+<h2>APPROVED UID LIST</h2>
+<ul id="uidList"></ul>
+</div>
+
+<div class="terminal">
+<p>> Admin control initialized...</p>
+<p>> Database sync stable...</p>
+<p>> UID management active...</p>
+<p>> Security layer protected...</p>
+</div>
+
+</div>
+
+<script src="admin.js"></script>
+
+</body>
+</html>
