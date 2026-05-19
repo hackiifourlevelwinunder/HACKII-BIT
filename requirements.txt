@@ -1,0 +1,5 @@
+python-telegram-bot==20.3
+aiohttp[speedups]
+httpx==0.24.1
+aiodns
+Brotli
